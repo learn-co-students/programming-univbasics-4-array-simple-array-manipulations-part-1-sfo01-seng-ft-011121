@@ -13,8 +13,8 @@ def using_pop(arr)
 end
 
 def pop_with_args(arr)
-  fuck_off = arr.pop(2)
-  return fuck_off
+  popped = arr.pop(2)
+  return popped
 end
 
 def using_shift(arr)
@@ -22,6 +22,6 @@ def using_shift(arr)
 end
 
 def shift_with_args(arr)
-  fuck_off = arr.shift(2)
-  return fuck_off
+  shifted = arr.shift(2)
+  return shifted
 end
